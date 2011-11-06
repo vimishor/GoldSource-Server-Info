@@ -77,7 +77,6 @@ class GoldSource
     
     public function get_geoLocation()
     {
-        #$this->ip = '94.53.37.7';
         $data = file_get_contents('http://freegeoip.net/json/'.$this->ip);
                 
         return $data;
@@ -506,7 +505,7 @@ class GoldSource
             socket_set_timeout($this->resource, $this->timeout);
         }
         
-        return ($this->is_connected()) ? true : false;
+        return $this->is_connected();
 	}
     
     /**

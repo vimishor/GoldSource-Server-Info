@@ -6,7 +6,8 @@ GoldSource Server Info is a php script that allows checking and displaying infor
 ## Requirements
 
 * Web space with PHP 5.2.x and up.
-* PHP sockets active.
+* PHP fsockopen active.
+* Ability to open UDP sockets. (ask your hosting company)
 
 
 ## Installation
