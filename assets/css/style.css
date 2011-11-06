@@ -1,0 +1,66 @@
+/* RESET */
+* { margin: 0; }
+html {margin:0;padding:0;border:0; height: 100%;}
+body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure, dialog, footer, header, hgroup, menu, nav, section {display:block;}
+body {line-height:1.5;background:white;}
+table {border-collapse:separate;border-spacing:0;}
+caption, th, td {text-align:left;font-weight:normal;float:none !important;}
+table, th, td {vertical-align:middle;}
+blockquote:before, blockquote:after, q:before, q:after {content:'';}
+blockquote, q {quotes:"" "";}
+a img {border:none;}
+:focus {outline:0;}
+
+/* GLOBAL */
+body { margin: 0; padding:0; background: url(../images/bg_body_light.png) repeat #f9f9f9;	font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #999999; }
+a:link { color: #999; text-decoration: none; border-bottom: 1px dotted #ccc; }
+a:visited { color: #999; text-decoration: none; }
+a:hover { color: #ff9e00; text-decoration: none; }
+a:active { color: #999; text-decoration: none; }
+
+/* TYPOGRAPHY */
+h1 { margin: 0 0 0.5em 0; padding: 0; line-height: 1.5em; font-size: 22px; color: #ff9e00; text-align: center; }
+h2#hostname { margin: 0 0 0.5em 0; padding: 0; line-height: 1.0em; font-size: 20px; color: #999; text-align: center; }
+
+/* MINI GRID */
+.col-1, .col-2 { float: left; margin-right: 20px; }
+div.last { margin-right: 0; }
+.col-1 { width: 300px; }
+.col-2 { width: 300px; background: }
+.col-3 { width: 616px; margin: 10px; }
+
+/* TABLE */
+table.server_data { width:100%; max-width: 280px; float:left; margin: 10px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; }
+table.players_data { width: 100%; }
+td.center { text-align: center; }
+table td { border-right: 1px dotted #ccc; border-bottom: 1px dotted #ccc; padding: 4px 2px 4px 10px; }
+table td.last { border-right: none; }
+table td.strong { width: 100px; }
+
+/* FORM */
+form#global input[type="text"], input[type="url"],
+input[type="email"], input[type="tel"], input[type="password"]
+{ margin: 3px 0 0 0; padding: 6px; width: 160px; font-family: arial, sans-serif; font-size: 12px; border: 1px solid #ccc; background: -webkit-gradient(linear, left top, left 15, from(#FFFFFF), color-stop(4%, #f4f4f4), to(#FFFFFF)); background: -moz-linear-gradient(top, #FFFFFF, #f4f4f4 1px, #FFFFFF 15px); color: #999999; }
+
+form#global label {	display: inline-block;  font-size: 13px; color: #666; margin: 10px; font-weight: bold; width: 30px; }
+form#global input.error { border: 1px solid #cf0101; }
+form#global .placeholder { color: #aaa; }
+form#global .button { display: inline-block; margin: 15px 0 0 15px; padding: 5px 15px 5px 15px; background-color: #ff9e00; border: none; color: #fff; -moz-border-radius: 15px;	-webkit-border-radius: 15px; border-radius: 15px; }
+form#global .button:hover {	background-color: #fc8500; cursor: pointer;}
+form#global .button:active { margin-top: 16px; background-color: #f08004; cursor: pointer; }
+form#global fieldset { text-align: center; margin: 20px; }
+
+/* CUSTOM */
+#container { margin: 0 auto; background-color: #fff; -moz-background-clip: padding; -webkit-background-clip: padding; background-clip: padding-box;  border: 20px solid rgba(0,0,0,0.1); -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; padding: 30px; width: 620px; height: auto; }
+.geomap { margin-top: 10px; }
+.geomap img { border: 3px solid #999; }
+.divider { clear: both;}
+.hide { display: none; }
+.processing { background: url(../images/loading_big.gif) 50% center no-repeat;  height: 120px; }
+.response { text-align: center;  margin: 0 0 0.5em 0; padding: 0; line-height: 1.0em; font-size: 18px; color: #999; }
+
+header { margin-top: 20px; }
+footer { margin: 0 auto; width: 620px; text-align:center; padding: 20px; height: 20px; }
+footer .left { float: left; }
+footer .right { float: right; }
