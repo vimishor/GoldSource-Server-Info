@@ -50,7 +50,7 @@ function parse_server_data(json)
 
 function parse_players_data(json)
 {
-    if ( json.length < 5 )
+    if ( json.length < 1 )
     {
         $(".players_data tbody").html('<tr><td colspan="3" class="center last">No online players.</td> </tr>');
     }
