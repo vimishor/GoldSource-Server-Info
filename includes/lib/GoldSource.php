@@ -146,12 +146,11 @@ class GoldSource
         $online_players     = $this->getbyte();
 
         $players = array();
-                
+                        
         for($i=0;$i<$online_players;$i++)
 		{
-            $this->skip(1); // skip
             $players[$i]['id']       = $this->getbyte(); 
-            $players[$i]['nick']     = $this->getstring();
+            $players[$i]['nick']     = htmlentities($this->getstring());
             $players[$i]['score']    = $this->getlong();
             $players[$i]['time_int'] = (int)$this->getfloat();
             $players[$i]['time_gmt'] =  GMDate( ( ($players[$i]['time_int']) > 3600 ? "H:i:s" : "i:s" ), $players[$i]['time_int'] );
