@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <phpunit 
-	bootstrap="./Bootstrap.php"
+	bootstrap="./tests/Bootstrap.php"
 	colors="true"
 	convertNoticesToExceptions="true"
 	convertWarningsToExceptions="true"
@@ -11,7 +11,7 @@
 	stopOnSkipped="false">
 	<testsuites>
 		<testsuite name="GoldSource">
-			<file>./lib/GoldSourceTest.php</file>
+			<file>./tests/lib/GoldSourceTest.php</file>
 		</testsuite>
 	</testsuites>
 </phpunit>
