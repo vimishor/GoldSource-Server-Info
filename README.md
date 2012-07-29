@@ -1,4 +1,4 @@
-## What is GoldSource Server Info ?
+## What is GoldSource Server Info ? [![Build Status](https://secure.travis-ci.org/vimishor/GoldSource-Server-Info.png?branch=master)](http://travis-ci.org/vimishor/GoldSource-Server-Info)
 
 GoldSource Server Info is a php script that allows checking and displaying information about any Counter-Strike 1.6 server.
 
